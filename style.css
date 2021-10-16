@@ -1,0 +1,166 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+  text-align:center;
+  font-family: 'Space Mono', monospace;
+
+}
+
+h1{
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+font-weight: bold;
+}
+h2{
+  font-size: 1rem;
+color:grey;
+}
+
+
+
+
+.heading{
+
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 20px;
+  color:hsl(183, 100%, 15%);
+
+  margin: 50px auto auto auto;
+  font-weight: bold;
+
+}
+.calculator{
+  text-align: center;
+  background-color: white;
+  margin-top:50px;
+  border-radius:25px;
+  padding: 20px 32px 20px 20px;
+
+}
+
+.calculation{
+
+  border-radius:15px;
+  background-color: hsl(183, 100%, 15%);
+  padding: 7% 5%;
+  text-align: left;
+}
+
+.left{
+text-align: left;
+  padding: 20px 40px 20px 20px;
+
+
+}
+
+
+.left_input{
+
+border:0;
+  background-color: hsl(189, 41%, 97%);
+      font-size:1.5rem;
+      text-align: right;
+        width:100%;
+
+
+}
+
+.left_input:focus{
+border:10px;
+outline-color: hsl(172, 67%, 45%);
+}
+
+.input_icon{
+  color:grey;
+    font-size:1.5rem;
+    position: absolute;
+    top:10px;
+    left:10px;
+  }
+
+
+
+.attribution{
+  margin-top:100px;
+  font-size:.5rem;
+
+}
+
+.tip_buttom{
+  background-color: hsl(183, 100%, 15%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:white;
+  width: 25%;
+  margin: 2%;
+  border:0;
+  border-radius: 4px;
+  height:40px;
+}
+
+.custom{
+  background-color: hsl(189, 41%, 97%)
+  font-size: .8rem;
+  font-weight: bold;
+  color:hsl(186, 14%, 43%);
+  width: 25%;
+  margin: 2%;
+  border:0;
+  border-radius: 4px;
+  height:40px;
+}
+
+
+.tip_buttom:focus{
+background-color:hsl(172, 67%, 45%);
+color:hsl(183, 100%, 15%);
+
+}
+
+.AmountPerPerson{
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  margin: 5% 0;
+
+}
+
+.AmountPerPerson h3{
+  color:white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.AmountPerPerson p{
+  color: hsl(185, 41%, 84%);
+  font-size: .7rem;
+
+}
+
+.amountNumber{
+
+width:45%;
+text-align: right;
+display: inline-block;
+position: relative;
+}
+
+.amountNumber h4{
+  font-size: 2.5rem;
+  color:hsl(172, 67%, 45%);
+  font-weight: 700;
+}
+
+.resetButtom{
+  width: 100%;
+  background-color: hsl(172, 67%, 45%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:white;
+    margin: 2%;
+    border:0;
+    border-radius: 4px;
+    height:40px;
+    position: relative;
+    top: 25%;
+  }
