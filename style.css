@@ -83,7 +83,7 @@ outline-color: hsl(172, 67%, 45%);
 
 }
 
-.tip_buttom{
+.tip_buttom_not_active{
   background-color: hsl(183, 100%, 15%);
   font-size: 1.2rem;
   font-weight: bold;
@@ -108,7 +108,7 @@ outline-color: hsl(172, 67%, 45%);
 }
 
 
-.tip_buttom:focus{
+.tip_buttom_active{
 background-color:hsl(172, 67%, 45%);
 color:hsl(183, 100%, 15%);
 
